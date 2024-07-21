@@ -1,4 +1,4 @@
-name: Publish NuGet Package
+name: .NET Build and Publish
 
 on:
   push:
@@ -14,23 +14,27 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
 
     - name: Setup .NET
-      uses: actions/setup-dotnet@v2
+      uses: actions/setup-dotnet@v3
       with:
-        dotnet-version: '8.0.x'  # Ensure this matches your .NET version
+        dotnet-version: 8.0.x
 
     - name: Restore dependencies
       run: dotnet restore
 
-    - name: Build project
-      run: dotnet build --configuration Release
+    - name: Build
+      run: dotnet build --configuration Release --no-restore
 
-    - name: Pack project
-      run: dotnet pack --configuration Release --output ./output /p:NuspecFile=GrpcProductServer.1.0.0.nupkg
+    - name: Test
+      run: dotnet test --no-restore --verbosity normal
 
-    - name: Publish NuGet package
+    - name: Pack
+      run: dotnet pack --configuration Release --no-build --output ./nupkg
+
+    - name: Publish to NuGet
+      if: github.event_name == 'push'
       env:
-        NUGET_API_KEY: ${{ secrets.NUGET_PACKAGE_TOKEN }}
-      run: dotnet nuget push ./output/*.nupkg --api-key ${{ secrets.NUGET_PACKAGE_TOKEN }} --source https://nuget.pkg.github.com/sujitmeshramnashtech/index.json
+        NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
+      run: dotnet nuget push ./nupkg/*.nupkg --api-key $NUGET_API_KEY --source https://api.nuget.org/v3/index.json
