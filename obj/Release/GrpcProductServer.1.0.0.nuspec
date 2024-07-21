@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>GrpcProductServer</id>
+    <version>1.0.0</version>
+    <authors>GrpcProductServer</authors>
+    <description>Package Description</description>
+    <repository type="git" url="https://github.com/sujitmeshramnashtech/gRPC-Nuget-POC-Product.git" commit="acc8897336e122c83a307cfa9d96b1e055aa30ee" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="Grpc.AspNetCore" version="2.57.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net8.0">
+        <frameworkReference name="Microsoft.AspNetCore.App" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/net8.0/appsettings.Development.json" buildAction="Content" />
+      <files include="any/net8.0/appsettings.json" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="E:\Nashtech\POCs\Current POC\gRPC Nuget\GrpcProductServer\bin\Release\net8.0\GrpcProductServer.runtimeconfig.json" target="lib\net8.0\GrpcProductServer.runtimeconfig.json" />
+    <file src="E:\Nashtech\POCs\Current POC\gRPC Nuget\GrpcProductServer\bin\Release\net8.0\GrpcProductServer.dll" target="lib\net8.0\GrpcProductServer.dll" />
+    <file src="E:\Nashtech\POCs\Current POC\gRPC Nuget\GrpcProductServer\appsettings.Development.json" target="content\appsettings.Development.json" />
+    <file src="E:\Nashtech\POCs\Current POC\gRPC Nuget\GrpcProductServer\appsettings.Development.json" target="contentFiles\any\net8.0\appsettings.Development.json" />
+    <file src="E:\Nashtech\POCs\Current POC\gRPC Nuget\GrpcProductServer\appsettings.json" target="content\appsettings.json" />
+    <file src="E:\Nashtech\POCs\Current POC\gRPC Nuget\GrpcProductServer\appsettings.json" target="contentFiles\any\net8.0\appsettings.json" />
+  </files>
+</package>

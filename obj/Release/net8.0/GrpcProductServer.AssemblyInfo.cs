@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GrpcProductServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+69acc45ca30aa10449492ab554a03bcd2beac3b9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+acc8897336e122c83a307cfa9d96b1e055aa30ee")]
 [assembly: System.Reflection.AssemblyProductAttribute("GrpcProductServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GrpcProductServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

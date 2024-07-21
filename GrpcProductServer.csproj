@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
+      <IsPackable>true</IsPackable> 
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
 	  <RepositoryUrl>https://github.com/sujitmeshramnashtech/gRPC-Nuget-POC-Product.git</RepositoryUrl>

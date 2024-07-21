@@ -32,3 +32,4 @@ E:\Nashtech\POCs\Current POC\gRPC Nuget\GrpcProductServer\obj\Debug\net8.0\refin
 E:\Nashtech\POCs\Current POC\gRPC Nuget\GrpcProductServer\obj\Debug\net8.0\GrpcProductServer.pdb
 E:\Nashtech\POCs\Current POC\gRPC Nuget\GrpcProductServer\obj\Debug\net8.0\GrpcProductServer.genruntimeconfig.cache
 E:\Nashtech\POCs\Current POC\gRPC Nuget\GrpcProductServer\obj\Debug\net8.0\ref\GrpcProductServer.dll
+E:\Nashtech\POCs\Current POC\gRPC Nuget\GrpcProductServer\obj\Debug\net8.0\GrpcProductServer.sourcelink.json

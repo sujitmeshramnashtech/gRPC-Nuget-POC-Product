@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Product gRPC-Nuget-POC-Product</id>
+    <version>1.0.0</version>
+    <authors>sujit</authors>
+    <owners>YourName</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A sample Web API project.</description>
+    <releaseNotes>Initial release</releaseNotes>
+    <copyright>Copyright 2024</copyright>
+    <tags>webapi</tags>
+  </metadata>
+</package>
