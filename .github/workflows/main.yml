@@ -28,7 +28,7 @@ jobs:
       run: dotnet build --configuration Release
 
     - name: Pack project
-      run: dotnet pack --configuration Release --output ./output /p:NuspecFile=MyWebApi.nuspec
+      run: dotnet pack --configuration Release --output ./output /p:NuspecFile=GrpcProductServer.1.0.0.nupkg
 
     - name: Publish NuGet package
       env:
