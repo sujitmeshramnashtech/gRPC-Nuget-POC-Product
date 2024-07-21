@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("GrpcProductServer")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Sujit")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("A Product Project")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+acc8897336e122c83a307cfa9d96b1e055aa30ee")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6fd1d817237f29744f1562f5718c1b852d76abe5")]
 [assembly: System.Reflection.AssemblyProductAttribute("GrpcProductServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GrpcProductServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

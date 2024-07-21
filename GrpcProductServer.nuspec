@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>Product gRPC-Nuget-POC-Product</id>
+    <id>Product-gRPC-Nuget-POC-Product</id>
     <version>1.0.0</version>
     <authors>sujit</authors>
     <owners>YourName</owners>

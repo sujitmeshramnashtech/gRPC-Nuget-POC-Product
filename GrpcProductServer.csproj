@@ -5,8 +5,12 @@
       <IsPackable>true</IsPackable> 
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-	  <RepositoryUrl>https://github.com/sujitmeshramnashtech/gRPC-Nuget-POC-Product.git</RepositoryUrl>
-
+    <PackageId>GrpcProductServer</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Sujit</Authors>
+    <Description>A Product Project</Description>
+    <PackageTags>grpc;dotnet;example</PackageTags>
+    <RepositoryUrl>https://github.com/sujitmeshramnashtech/gRPC-Nuget-POC-Product.git</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
